@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./ClientApp",
+    "module": "esnext",
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    //"skipDefaultLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
+    //"types": ["webpack-env"]
+    "lib": ["esnext", "dom"],
+    "paths": {
+      "@backend/*": ["./backend/*"],
+      "@components/*": ["./components/*"],
+      "@utils/*": ["./utils/*"],
+      "@resources/*": ["./resources/*"],
+      "@models/*": ["./models/*"]
+    },
+  },
+}
